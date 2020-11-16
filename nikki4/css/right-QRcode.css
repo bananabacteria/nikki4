@@ -1,0 +1,97 @@
+@keyframes gy {
+    0%{
+        background: linear-gradient(135deg,transparent 15%,white 30% ,transparent 45%,transparent 65%,white 80%,transparent 95% );
+        opacity: 0.7;
+    }
+    10%{
+        background: linear-gradient(135deg,transparent 20%,white 35% ,transparent 50%,transparent 70%,white 85%,transparent 100% );
+        opacity: 0.7;
+    }
+    20%{
+        background: linear-gradient(135deg,white,transparent 5%,transparent 25%, white 40% ,transparent 55%,transparent 75%,white 90% );
+        opacity: 0.7;
+    }
+    30%{
+        background: linear-gradient(135deg,white,transparent 10%,transparent 30%, white 45% ,transparent 60%,transparent 80%,white 95% );
+        opacity: 0.7;
+
+    }
+    40%{
+        background: linear-gradient(135deg,white,transparent 15%,transparent 35%, white 50% ,transparent 65%,transparent 85%,white 100% );
+        opacity: 0.7;
+    }
+    50%{
+        background: linear-gradient(135deg,white 5%,transparent 20%,transparent 40%, white 55% ,transparent 70%,transparent 90% );
+        opacity: 0.7;
+
+    }
+    60%{
+        background: linear-gradient(135deg,white 10%,transparent 25%,transparent 45%, white 60% ,transparent 75%,transparent 95%);
+        opacity: 0.7;
+    }
+    70%{
+        background: linear-gradient(135deg,white 15%,transparent 30%,transparent 50%, white 65% ,transparent 80%,transparent 100%);
+        opacity: 0.7;
+
+    }
+    80%{
+        background: linear-gradient(135deg,transparent 5%, white 20%,transparent 35%,transparent 55%, white 70% ,transparent 85%);
+        opacity: 0.7;
+
+    }
+    90%{
+        background: linear-gradient(135deg,transparent 10%, white 25%,transparent 40%,transparent 60%, white 75% ,transparent 90%);
+        opacity: 0.7;
+
+    }
+    100%{
+        background: linear-gradient(135deg,transparent 15%,white 30% ,transparent 45%,transparent 65%,white 80%,transparent 95% );
+        opacity: 0.7;
+    }
+
+}
+#right-fixed-QRcode{
+    text-align: center;
+    width: 138px;
+    height: 350px;
+    position: fixed;
+    right: 0px;
+    top: 250px;
+   /* border: 1px solid;*/
+    z-index: 98;
+    background: url("../img/slide-nav.png");
+    background-size: 100% 100%;
+}
+.rQ-option{
+    margin-top:10px;
+}
+.QR-border{
+    display: inline-block;
+    color: rgb(254,251,251);
+    border-bottom: 2px solid;
+    width: 70px;
+}
+#retruntop{
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    border: 1px solid;
+    width: 60px;
+    height: 60px;
+   opacity: 0;
+}
+#QRcode-animation{
+    width: 99px;
+    height: 99px;
+    position: absolute;
+    top: 15px;
+    right: 0px;
+    left: 0px;
+    margin: auto;
+    animation: gy 1s infinite;
+}
+#retruntop:hover{
+    cursor: pointer;
+}

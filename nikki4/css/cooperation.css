@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+section {
+	background: url("../img/lily/bg-coo.jpg") no-repeat;
+	overflow: hidden;
+	height: 985px;
+}
+section>div {
+	margin-top: 186px;
+	margin-left: 836px;
+	height: 616px;
+	position: relative;
+}
+section>div>img {
+	width: 1000px;
+	height: 615px;
+}
+section>div>div {
+	position: absolute;
+	width: 800px;
+	height: 150px;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+}
+section>div>div>img {
+	float: left;
+	height: 150px;
+	vertical-align: middle;
+}
+section>div>div>text {
+	font-size: 20px;
+	color: gray;
+	line-height: 2em;
+}
